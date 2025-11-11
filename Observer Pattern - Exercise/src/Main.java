@@ -5,10 +5,12 @@ public class Main {
         Observer s1 = new Subscriber("Mohamed Ashraf Taha");
         Observer s2 = new Subscriber("Mohamed Ashraf Mahmoud");
         Observer s3 = new Subscriber("Moamen Wael Saber");
+        Observer s4 = new Subscriber("Fahd Dyaa Eldin Salah Eldin");
 
         YouTubeChannel.subscribe(s1, "Mohamed Ashraf Taha");
         YouTubeChannel.subscribe(s2, "Mohamed Ashraf Mahmoud");
-        YouTubeChannel.subscribe(s3, "Moamen Wael Saber\n");
+        YouTubeChannel.subscribe(s3, "Moamen Wael Saber");
+        YouTubeChannel.subscribe(s4, "Fahd Dyaa Eldin Salah Eldin\n");
 
         YouTubeChannel.unsubscribe(s1, "Mohamed Ashraf Taha\n");
 
